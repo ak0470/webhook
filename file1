@@ -7,5 +7,10 @@ pipeline {
                 echo 'pipeline executed/not'
             }
         }
+        stage('Mann is Dancing Now') {
+            steps {
+                sh'ls'
+            }
+        }
     }
 }
