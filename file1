@@ -4,12 +4,12 @@ pipeline {
     stages {
         stage('code pull') {
             steps {
-                echo 'use new gitcode'
+                git 'https://github.com/akale9888/student-file.git'
             }
         }
         stage('build') {
             steps {
-                sh'ls'
+                sh'mvn clean package'
             }
         }
     }
