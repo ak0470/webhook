@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('code pull') {
+        stage('code pushed') {
             steps {
-                git 'https://github.com/akale9888/student-file.git'
+                sh'ls'
             }
         }
         stage('build') {
