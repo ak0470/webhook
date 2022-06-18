@@ -2,12 +2,12 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('code pull') {
             steps {
-                echo 'pipeline executed/not'
+                echo 'use git'
             }
         }
-        stage('Mann is Dancing Now') {
+        stage('build') {
             steps {
                 sh'ls'
             }
