@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('code pull') {
             steps {
-                echo 'use dfsfdffdvdf git'
+                echo 'use new gitcode'
             }
         }
         stage('build') {
