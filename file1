@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('code pushing stage1') {
+        stage('cod') {
             steps {
                 sh'ls'
             }
